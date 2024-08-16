@@ -1,0 +1,42 @@
+.logger{
+    border: 1px solid rgb(231, 217, 217);
+
+    margin-top: 20em;
+    border-radius: 20px;
+    padding: 23px;
+    background-color: rgb(142, 146, 192);
+}
+body{
+background-color: #b7aace;
+}
+.container{
+    padding-right:100px;
+    
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+    gap: 15px; /* Adjust gap as needed */
+}
+
+.heading {
+    flex: 1; /* Allow the heading to take up available space */
+    text-align: center; /* Center the heading text */
+    margin: 0; /* Remove default margin to keep it centered */
+}
+
+#logout-btn {
+    margin-left: auto; /* Push the logout button to the right */
+}
+
+/* Hide the h1 when the my-todos link is clicked */
+.hidden {
+    display: none;
+}
